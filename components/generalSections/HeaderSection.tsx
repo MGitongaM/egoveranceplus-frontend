@@ -44,7 +44,7 @@ export default function HeaderSection() {
                 </svg>
               </Link>
             </div>
-            <Button className="text-xl font-semibold bg-fuchsia-500 py-8 hover:bg-fuchsia-600 hover:scale-105 transition-all">
+            <Button className="text-base font-bold bg-fuchsia-500 py-5 hover:bg-fuchsia-600 hover:scale-105 transition-all">
               REQUEST DEMO
             </Button>
           </div>
