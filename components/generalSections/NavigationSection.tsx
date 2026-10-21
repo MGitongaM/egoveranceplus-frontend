@@ -21,12 +21,11 @@ import {
 } from "../ui/sheet";
 import { ChevronDown, MenuSquare } from "lucide-react";
 import { useState } from "react";
-import { Button } from "../ui/button";
 import Image from "next/image";
 
 
 const navLinks = [
-//   { id: 1, title: "Home", href: "/" },
+  // { id: 1, title: "Home", href: "/" },
   { id: 2, title: "About Us", href: "/about-us" },
 //   { id: 3, title: "Services", href: "/services" },
   { id: 4, title: "Blog", href: "/blogs" },
@@ -118,17 +117,7 @@ export default function NavigationSection() {
               </div>
             </div>
             {/* <div className="bg-red-500"> */}
-            <NavigationMenuItem className="mr-10 justify-end md:pl-0 hidden">
-              <NavigationMenuLink
-                href="/contact-us"
-                className=" inline-block cursor-pointer rounded-md font-bold bg-amber-400 text-slate-900 hover:text-slate-900 hover:shadow-lg hover:bg-cyan-300"
-                render={
-                  <Button className="  hover:scale-110 transition-all transition-discrete ease-linear duration-500 shadow-md">
-                    <Link href="/contact-us">Get AV Quote</Link>
-                  </Button>
-                }
-              />
-            </NavigationMenuItem>
+          
             {/* </div> */}
             {/* mobile navigation */}
             <div className="block  lg:hidden">
@@ -146,28 +135,27 @@ export default function NavigationSection() {
                     <SheetDescription></SheetDescription>
                   </SheetHeader>
                   <div className="c">
-                    <div className="flex flex-col justify-center items-center gap-8 list-none">
+                    <div className="flex flex-col justify-center  items-end gap-8 list-none pr-28">
                       <NavigationMenuItem>
                         {navLinks.map((link) => (
                           <NavigationMenuLink
                             key={link.id}
                             className={cn(
                               navigationMenuTriggerStyle(),
-                              // "block my-4 font-semibold  text-slate-100",
-                              "block my-4 font-semibold  text-amber-600",
+                              "block my-4 font-semibold  text-slate-900",
                             )}
                             render={<Link href={link.href}>{link.title}</Link>}
                             href={link.href}
                             onClick={() => setOpen(false)}
                           />
                         ))}
-                        <p className="text-amber-400 font-semibold  ml-2">Services<ChevronDown className="text-amber-400 inline-block ml-1"/></p>
+                        <p className="text-slate-00 font-semibold  ml-2">Services<ChevronDown className="text-fuchsia-400 inline-block ml-1"/></p>
                         {servicesLink.map((link) => (
                           <NavigationMenuLink
                             key={link.id}
                             className={cn(
                               navigationMenuTriggerStyle(),
-                              "block my-4 ml-4 text-amber-600 rounded-sm focus:text-slate-950 font-semibold hover:text-slate-950 hover:bg-fuchsia-100",
+                              "block my-4 ml-4 text-slate-900 rounded-sm focus:text-slate-950 font-semibold hover:text-slate-950 hover:bg-fuchsia-100",
                             )}
                             render={<Link href={link.href}>{link.title}</Link>}
                             href={link.href}

@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   images:{
-    remotePatterns:[new URL('https://www.egovernanceplus.com/wp-content/uploads/**')],
+    // remotePatterns:[new URL('https://www.egovernanceplus.com/wp-content/uploads/**')],
+    remotePatterns:[new URL('https://www.egovernanceplus.com/**')],
   },
   turbopack: {
     rules: {

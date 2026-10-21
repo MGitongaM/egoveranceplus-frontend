@@ -42,7 +42,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         publicSansHeading.variable,
       )}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col overflow-x-hidden">
         <HeaderSection />
         <NavigationSection />
         {children}
