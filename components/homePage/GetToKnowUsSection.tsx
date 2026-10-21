@@ -15,7 +15,7 @@ export default function GetToKnowUsSection() {
             Proactive approach to compliance
           </h2>
           <div className="flex justify-between items-center gap-8 py-20">
-            <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-12 w-full lg:w-[50dvw]">
                 <div className="grid grid-cols-12 gap-8">
                 <ShieldCheck className="block col-span-2 text-violet-700 size-20" />
                 <div className="col-span-10 space-y-2">
@@ -48,13 +48,13 @@ export default function GetToKnowUsSection() {
                 </div>
 
             </div>
-            <div className="c">
+            <div className="w-full lg:w-[50dvw]">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/Proactive-Compliance-–-eGovernance-1.jpg"}
                 width={400}
                 height={400}
                 alt="Compliance Image"
-                className="bg-violet-100 h-[70dvh] w-auto rounded-md"
+                className="bg-violet-100 h-[70dvh] w-full object-cover object-center rounded-md"
               />
             </div>
           </div>

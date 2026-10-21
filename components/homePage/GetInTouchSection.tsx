@@ -17,16 +17,16 @@ export default function GetInTouchSection() {
           </h2>
           <div className="flex justify-between items-center gap-8 py-20">
           
-            <div className="c">
+            <div className="w-full md:w-[50dvw]">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2024/01/request-software-demo-hybrid-screen-193325207.scale_.jpg"}
                 width={400}
                 height={400}
                 alt="Compliance Image"
-                className="bg-violet-100 h-[70dvh] w-auto rounded-md"
+                className="bg-violet-100 h-full w-full object-cover object-center rounded-md"
               />
             </div>
-            <div className="c">
+            <div className="w-full md:w-[50dvw]">
                 <p className="text-center">contact form</p>
             </div>
           </div>

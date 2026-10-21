@@ -10,11 +10,11 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-12 items-start gap-8 py-20">
             <div className="col-span-12 md:col-span-7">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/Book-a-Free-Complimentary-Consultation-with-eGovernance.jpg"}
                 width={400}
-                height={400}
+                height={200}
                 alt="Hero Image"
-                className="bg-violet-100 h-[70dvh] w-auto rounded-md"
+                className="bg-violet-100 h-[99dvh] w-full object-cover -scale-x-100 object-center rounded-md"
               />
               <div className="space-y-2 mt-8">
                 <p className="text-lg font-medium">

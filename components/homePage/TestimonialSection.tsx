@@ -14,7 +14,7 @@ export default function TestimonialSection() {
       <section className="bg-white py-40">
         <div className="max-w-5xl mx-auto bg-violet-900 rounded-md flex justify-between items-center gap-8 px-4 py-6 mt-16">
           <Image
-            src={""}
+            src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/eGovernance-Software-Review.png"}
             width={400}
             height={400}
             alt="Testimonial Image"

@@ -18,11 +18,11 @@ export default function ExpertiseSection() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
             <div className="w-full bg-slate-100">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/Governance-Software-–-eGovernance.jpg"}
                 width={400}
                 height={400}
                 alt="Hero Image"
-                className="bg-violet-100 h-[20dvh] w-full rounded-t-md"
+                className="bg-violet-100 h-[20dvh] w-full object-cover object-center rounded-t-md"
               />
 
               <BackpackIcon className="text-violet-800 size-12 -mt-8 " />
@@ -38,11 +38,11 @@ export default function ExpertiseSection() {
             </div>
             <div className="w-full bg-slate-100">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/eGovernance-Consultancy-Services.jpg"}
                 width={400}
                 height={400}
                 alt="Hero Image"
-                className="bg-violet-100 h-[20dvh] w-full rounded-t-md"
+                className="bg-violet-100 h-[20dvh] w-full object-cover object-center rounded-t-md"
               />
 
               <BackpackIcon className="text-violet-800 size-12 -mt-8 " />
@@ -57,11 +57,11 @@ export default function ExpertiseSection() {
             </div>
             <div className="w-full bg-slate-100">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/Service-Quality-Reviews-–-eGovernance.jpg"}
                 width={400}
                 height={400}
                 alt="Hero Image"
-                className="bg-violet-100 h-[20dvh] w-full rounded-t-md"
+                className="bg-violet-100 h-[20dvh] w-full object-cover object-center rounded-t-md"
               />
 
               <BackpackIcon className="text-violet-800 size-12 -mt-8 " />
@@ -80,11 +80,11 @@ export default function ExpertiseSection() {
             </div>
             <div className="w-full bg-slate-100">
               <Image
-                src={""}
+                src={"https://www.egovernanceplus.com/wp-content/uploads/2025/07/CQC-Registration-Support-–-eGovernance.jpg"}
                 width={400}
                 height={400}
                 alt="Hero Image"
-                className="bg-violet-100 h-[20dvh] w-full rounded-t-md"
+                className="bg-violet-100 h-[20dvh] w-full object-cover object-center rounded-t-md"
               />
 
               <BackpackIcon className="text-violet-800 size-12 -mt-8 " />

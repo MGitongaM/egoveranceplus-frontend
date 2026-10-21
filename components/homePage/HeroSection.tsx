@@ -19,11 +19,12 @@ export default function HeroSection() {
                     </div>
                     <div className="c">
                         <Image
-                        src={""}
+                        src={"https://www.egovernanceplus.com/wp-content/uploads/2026/04/Homepageintroducingthe7stepcycle-hero-image.png"}
                         width={400}
                         height={400}
                         alt="Hero Image"
-                        className="bg-violet-100 h-[70dvh] w-auto rounded-full"
+                        // className="bg-violet-100 h-[50dvh] w-[70dvw] rounded-full"
+                        className="bg-violet-100 object-cover object-center h-[60dvh] w-[70dvw] rounded-full"
                         />
                     </div>
                 </div>

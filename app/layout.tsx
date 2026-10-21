@@ -3,10 +3,15 @@ import { Geist, Geist_Mono, Montserrat, Public_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import HeaderSection from "@/components/generalSections/HeaderSection";
+import FooterSection from "@/components/generalSections/FooterSection";
+import NavigationSection from "@/components/generalSections/NavigationSection";
 
-const publicSansHeading = Public_Sans({subsets:['latin'],variable:'--font-heading'});
+const publicSansHeading = Public_Sans({
+  subsets: ["latin"],
+  variable: "--font-heading",
+});
 
-const montserrat = Montserrat({subsets:['latin'],variable:'--font-sans'});
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-sans" });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,12 +32,22 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", montserrat.variable, publicSansHeading.variable)}
+      className={cn(
+        "h-full",
+        "antialiased",
+        geistSans.variable,
+        geistMono.variable,
+        "font-sans",
+        montserrat.variable,
+        publicSansHeading.variable,
+      )}
     >
       <body className="min-h-full flex flex-col">
-        <HeaderSection/>
+        <HeaderSection />
+        <NavigationSection />
         {children}
-        </body>
+        <FooterSection />
+      </body>
     </html>
   );
 }
